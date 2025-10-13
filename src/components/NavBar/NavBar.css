@@ -1,0 +1,26 @@
+.navBar{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.navBar-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  list-style: none;
+  margin: 0 10px 0;
+  padding: 0;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.navBar-link-home {
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.navBar-link a {
+  color: white;
+}

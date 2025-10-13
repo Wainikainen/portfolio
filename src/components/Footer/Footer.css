@@ -1,0 +1,28 @@
+.footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+.footer-name{
+font-size: 10px;
+color: white;
+}
+
+.footer-links{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-link{
+    font-size: 15px;
+}
+
+.footer-gh{
+color: white;
+}
+
+.footer-li{
+color: white;
+}
