@@ -6,7 +6,7 @@
 }
 
 .footer-name {
-  font-size: 18px;
+  font-size: 25px;
   color: green;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .footer-link {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .footer-gh {
@@ -32,4 +32,10 @@
 .home-footer .footer-gh,
 .home-footer .footer-li {
   color: white;
+}
+
+.contact-footer .footer-name,
+.contact-footer .footer-gh,
+.contact-footer .footer-li {
+  color: black;
 }

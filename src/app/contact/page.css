@@ -1,0 +1,41 @@
+.contact{
+height: 91vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 90vh;
+}
+
+.contact-title{
+font-weight: 700;
+font-size: 90px;
+color: black;
+}
+
+.contact-sub{
+    text-align: center;
+    margin: 40px 0 60px;
+    font-weight: 400;
+    font-size: 40px;
+   color: rgba(0,0,0,0.9);
+}
+
+.contact-txt{
+font-weight: 400;
+padding: 30px;
+}
+
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    font-size: 40px;
+}
+
+.contact-img{
+    height: 30px;
+    color: blue;
+}
+
