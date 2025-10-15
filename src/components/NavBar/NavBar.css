@@ -1,6 +1,6 @@
 .navBar{
     padding: 10px;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,128,0,0.05);
 }
 
 .navBar-links {
@@ -9,18 +9,32 @@
   justify-content: flex-start;
   gap: 20px;
   list-style: none;
-  margin: 0 10px 0;
+  margin: 0 25px 0;
   padding: 0;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .navBar-link-home {
   margin-right: auto;
-  font-size: 15px;
+  font-size: 35px;
   font-weight: 700;
+  color: white;
 }
 
 .navBar-link a {
   color: white;
 }
+
+.about-nav {
+  background-color: transparent;
+}
+
+.about-nav .navBar-link a{
+color: green;
+}
+
+.about-nav .navBar-link-home{
+  color: green;
+}
+
