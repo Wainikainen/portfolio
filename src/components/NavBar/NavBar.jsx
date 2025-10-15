@@ -18,6 +18,8 @@ const NavBar = () => {
       ? "about-nav"
       : pathname === "/contact"
       ? "contact-nav"
+      : pathname === "/"
+      ? "home-nav"
       : "";
 
   return (

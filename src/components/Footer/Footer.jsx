@@ -13,7 +13,12 @@ const raleway = Raleway({
 const Footer = () => {
   const year = new Date().getFullYear();
   const pathname = usePathname();
-  const footerClass = pathname === "/" ? "home-footer" : "";
+  const footerClass =
+    pathname === "/"
+      ? "home-footer"
+      : pathname === "/contact"
+      ? "contact-footer"
+      : "";
 
   return (
     <footer className={`footer ${footerClass}`}>
