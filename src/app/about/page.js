@@ -12,20 +12,21 @@ export default function About() {
         <h1 className="about-title">Adam Wainikainen</h1>
         <p className="about-subtitle">Junior Software Engineer</p>
         <p className="about-bio">
-          I'm a Junior Software Engineer focused on creating scalable solutions
-          to real-world problems. My journey has been non-traditional coming
-          from construction and sales, I've developed resilience, discipline,
-          and a problem-solving mindset that I now apply to tech. I'm currently
+          I&apos;m a Junior Software Engineer focused on creating scalable solutions
+          to real world problems. My journey has been nontraditional coming
+          from construction and sales, I&apos;ve developed resilience, discipline,
+          and a problem-solving mindset that I now apply to tech. I&apos;m currently
           building expertise in JavaScript, HTML, CSS, Python, and SQL, with a
           strong focus on AI development. My goal is to build impactful
           solutions that contribute to the evolving tech landscape. Outside of
-          coding, I'm passionate about fitness and well-being, and believe
-          technology has the power to enhance quality of life. Let's connect,
+          coding, I&apos;m passionate about fitness and well-being, and believe
+          technology has the power to enhance quality of life. Let&apos;s connect,
           feel free to reach out via LinkedIn or email at
           awainikainen@gmail.com.
         </p>
       </div>
 
+    <div className="about-wrap">
       <section className="about-skills-card">
         <h2 className="about-skills-title">Skills</h2>
         <div className="about-skills-container">
@@ -251,6 +252,7 @@ export default function About() {
           <p className="about-card-date">Date</p>
         </div>*/}
         </section>
+      </div>
       </div>
     </div>
   );
