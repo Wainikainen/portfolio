@@ -7,6 +7,7 @@ export const metadata = {
   title: "Adam Wainikainen's Portfolio",
   description: "Welcome to my portfolio",
   icons: { icon: "/favicon.png" },
+  viewport: "width=device-width, initial-scale=1",
 };
 
 const montserrat = Montserrat({
