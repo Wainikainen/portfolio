@@ -6,23 +6,30 @@ padding: 10px;
 }
 
 .footer-name{
-font-size: 10px;
-color: white;
+font-size: 18px;
+color: green;
 }
 
 .footer-links{
+    margin: 0 25px 0;
     display: flex;
     gap: 10px;
 }
 
 .footer-link{
-    font-size: 15px;
+    font-size: 30px;
 }
 
 .footer-gh{
-color: white;
+color: green;
 }
 
 .footer-li{
-color: white;
+color: green;
+}
+
+.home-footer .footer-name,
+.home-footer .footer-gh,
+.home-footer .footer-li {
+  color: white;
 }
