@@ -1,6 +1,6 @@
 .about {
   margin: 100px 350px;
-  justify-self: center;  
+  justify-self: center;
 }
 
 .about-profile {
@@ -107,10 +107,10 @@
 }
 
 .about-card-title {
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.9);
-    margin: 0 auto 25px;
-    font-size: 25px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 auto 25px;
+  font-size: 25px;
 }
 
 .about-card-img {
@@ -120,20 +120,17 @@
 }
 
 .about-card-div {
-    display: flex;
+  display: flex;
 }
 
 .about-card-item {
-    font-weight: 400;
-      color: rgba(0, 0, 0, 0.9);
-      margin-bottom: 3px;
-
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 3px;
 }
 
 .about-card-data {
-    font-weight: 400;
-      color: rgba(0, 0, 0, 0.6);
-      margin-bottom: 7px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 7px;
 }
-
-

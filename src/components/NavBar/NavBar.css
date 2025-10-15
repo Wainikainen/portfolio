@@ -1,6 +1,6 @@
-.navBar{
-    padding: 10px;
-    background-color: rgba(0,128,0,0.05);
+.navBar {
+  padding: 10px;
+  background-color: rgba(0, 128, 0, 0.05);
 }
 
 .navBar-links {
@@ -30,11 +30,10 @@
   background-color: transparent;
 }
 
-.about-nav .navBar-link a{
-color: green;
-}
-
-.about-nav .navBar-link-home{
+.about-nav .navBar-link a {
   color: green;
 }
 
+.about-nav .navBar-link-home {
+  color: green;
+}

@@ -3,7 +3,6 @@ import "./page.css";
 export default function About() {
   return (
     <div className="about">
-      
       <div className="about-profile">
         <img
           className="about-profile-img"
@@ -26,7 +25,6 @@ export default function About() {
           awainikainen@gmail.com.
         </p>
       </div>
-
 
       <section className="about-skills-card">
         <h2 className="about-skills-title">Skills</h2>
@@ -180,46 +178,46 @@ export default function About() {
       <div className="about-card-container">
         <section className="about-card">
           <h2 className="about-card-title">Experience</h2>
-      
-            <div className="about-card-div">
-              <svg
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="about-card-img"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
-                />
-              </svg>
-              <div className="about-card-txt">
-                <p className="about-card-item">Sales Executive</p>
-                <p className="about-card-data">Apr 2020 - May 2025</p>
-              </div>
+
+          <div className="about-card-div">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="about-card-img"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
+              />
+            </svg>
+            <div className="about-card-txt">
+              <p className="about-card-item">Sales Executive</p>
+              <p className="about-card-data">Apr 2020 - May 2025</p>
             </div>
-            <div className="about-card-div">
-              <svg
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="about-card-img"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
-                />
-              </svg>
-              <div className="about-card-txt">
-                <p className="about-card-item">Data Analyst</p>
-                <p className="about-card-data">May 2017 - Aug 2024</p>
-              </div>
+          </div>
+          <div className="about-card-div">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="about-card-img"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
+              />
+            </svg>
+            <div className="about-card-txt">
+              <p className="about-card-item">Data Analyst</p>
+              <p className="about-card-data">May 2017 - Aug 2024</p>
             </div>
-            {/*<img className="about-card-img" src="" alt="card logo" />
+          </div>
+          {/*<img className="about-card-img" src="" alt="card logo" />
         <div className="about-card-div">
           <p className="about-card-item">job</p>
           <p className="about-card-data">date</p>
@@ -228,26 +226,26 @@ export default function About() {
 
         <section className="about-card">
           <h2 className="about-card-title">Education</h2>
-            <div className="about-card-div">
-              <svg
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="about-card-img"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
-                />
-              </svg>
-              <div className="about-card-txt">
-                <p className="about-card-item">TripleTen</p>
-                <p className="about-card-data">June - Oct 2025</p>
-              </div>
+          <div className="about-card-div">
+            <svg
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="about-card-img"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+              />
+            </svg>
+            <div className="about-card-txt">
+              <p className="about-card-item">TripleTen</p>
+              <p className="about-card-data">June - Oct 2025</p>
             </div>
-            {/*} <img className="about-card-img" src="" alt="card logo"/>
+          </div>
+          {/*} <img className="about-card-img" src="" alt="card logo"/>
         <div className="about-card-div">
           <p className="about-card-item">School</p>
           <p className="about-card-date">Date</p>
