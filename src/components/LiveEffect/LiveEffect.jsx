@@ -1,4 +1,4 @@
-import './LiveEffect.css';
+import "./LiveEffect.css";
 
 export default function LiveEffect() {
   return (
