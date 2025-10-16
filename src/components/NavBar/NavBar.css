@@ -39,14 +39,13 @@
 }
 
 .contact-nav {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .contact-nav .navBar-link a {
   color: black;
 }
 
-.home-nav{
+.home-nav {
   background-color: transparent;
 }
-
