@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 const montserrat = Montserrat({
-  weight: ["400", "700"],
+  weight: ["400", "700", "900"],
   subsets: ["latin"],
 });
 
