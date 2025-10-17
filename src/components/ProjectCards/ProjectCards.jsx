@@ -41,7 +41,7 @@ const imgVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { delay: i * 0.5,  duration: 0.6, ease: "easeOut" },
+    transition: { delay: i * 0.5, duration: 0.6, ease: "easeOut" },
   }),
 };
 
@@ -67,6 +67,7 @@ export default function ProjectCards() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false, amount: 0.5 }}
+                transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
               />
             ))}
           </div>
