@@ -1,5 +1,4 @@
 .contact {
-  height: 91vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,6 +10,8 @@
   font-weight: 700;
   font-size: 90px;
   color: black;
+  -webkit-text-stroke: thin;
+  text-shadow: 1px 1px 6px;
 }
 
 .contact-sub {
@@ -35,6 +36,6 @@
 }
 
 .contact-img {
-  height: 30px;
+  height: 40px;
   color: blue;
 }
