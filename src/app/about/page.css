@@ -1,6 +1,7 @@
 .about {
   margin: 100px auto;
   justify-self: center;
+  max-width: 80vw;
 }
 
 .about-profile {
