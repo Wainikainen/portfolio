@@ -66,7 +66,7 @@ export default function ProjectCards() {
                 variants={imgVariants}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: false, amount: 0.4 }}
+                viewport={{ once: false, amount: 0.6 }}
                 transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
               />
             ))}
