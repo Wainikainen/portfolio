@@ -74,16 +74,20 @@ export default function ProjectCards() {
           <div className="project-info">
             <h3 className="project-title">{proj.title}</h3>
             <div className="project-content">
-              <p className="project-tech-title">Technologies Used</p>
-              <div className="project-tech">
-                {proj.tech.map((t, i) => (
-                  <span key={i} className="project-tech-item">
-                    {t}
-                  </span>
-                ))}
+              <div className="project-tech-wrap">
+                <p className="project-tech-title">Technologies Used</p>
+                <div className="project-tech">
+                  {proj.tech.map((t, i) => (
+                    <span key={i} className="project-tech-item">
+                      {t}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <p className="project-bio-title">Description</p>
-              <p className="project-bio">{proj.bio}</p>
+              <div className="project-bio-wrap">
+                <p className="project-bio-title">Description</p>
+                <p className="project-bio">{proj.bio}</p>
+              </div>
             </div>
           </div>
         </motion.section>
