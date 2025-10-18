@@ -177,7 +177,7 @@ export default function About() {
         </section>
 
         <div className="about-card-container">
-          <section className="about-card">
+          <section className="about-card about-card-box">
             <h2 className="about-card-title">Experience</h2>
 
             <div className="about-card-div">
@@ -225,7 +225,7 @@ export default function About() {
         </div>**/}
           </section>
 
-          <section className="about-card">
+          <section className="about-card about-card-box">
             <h2 className="about-card-title">Education</h2>
             <div className="about-card-div">
               <svg
