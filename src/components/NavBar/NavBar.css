@@ -49,3 +49,56 @@
 .home-nav {
   background-color: transparent;
 }
+
+@media screen and (max-width: 1441px) {
+  .navBar-links {
+    font-size: 20px;
+  }
+
+  .navBar-link-home {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navBar-links {
+    font-size: 15px;
+  }
+
+  .navBar-link-home {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navBar-links {
+    font-size: 11px;
+    gap: 12px;
+  }
+
+  .navBar-link-home {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .navBar-links {
+    font-size: 10px;
+  }
+
+  .navBar-link-home {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navBar-links {
+    font-size: 9px;
+    gap: 6px;
+    margin: 0 10px;
+  }
+
+  .navBar-link-home {
+    font-size: 12px;
+  }
+}

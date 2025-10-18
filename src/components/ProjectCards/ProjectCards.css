@@ -46,13 +46,13 @@
 .project-title {
   font-weight: 700;
   font-size: 50px;
-  margin: 50px 0 100px;
+  margin: 50px 0 65px;
 }
 
 .project-tech {
   font-weight: 400;
   font-size: 24px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -92,4 +92,159 @@
 .project-images-scroll::-webkit-scrollbar-thumb {
   background: rgba(0, 125, 0, 0.6);
   border-radius: 10px;
+}
+
+@media screen and (max-width: 2000px) {
+  .project-bio {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-title {
+    font-size: 45px;
+    margin: 42px 0;
+  }
+
+  .project-tech {
+    font-size: 20px;
+  }
+
+  .project-bio-title,
+  .project-tech-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .project-bio {
+    font-size: 25px;
+  }
+
+  .project-bio-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .project-title {
+    font-size: 39px;
+    margin: 36px 0;
+  }
+
+  .project-tech {
+    font-size: 17px;
+  }
+
+  .project-bio-title,
+  .project-tech-title {
+    font-size: 29px;
+  }
+
+  .project-bio {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .project-info {
+    width: 100%;
+  }
+
+  .project-card {
+    flex-flow: column-reverse;
+  }
+
+  .project-bio-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-tech-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-title {
+    margin: 0 0 25px;
+  }
+
+  .project-tech {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .project-title {
+    font-size: 37px;
+  }
+
+  .project-bio-title,
+  .project-tech-title {
+    font-size: 28px;
+  }
+
+  .project-tech {
+    font-size: 17px;
+  }
+
+  .project-bio {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .project-bio {
+    font-size: 18px;
+  }
+
+  .project-bio-title,
+  .project-tech-title {
+    font-size: 26px;
+  }
+
+  .project-tech {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .project-bio {
+    font-size: 15px;
+  }
+
+  .project-tech {
+    font-size: 12px;
+  }
+
+  .project-bio-title,
+  .project-tech-title {
+    font-size: 22px;
+  }
+
+  .project-title {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .project-bio {
+    font-size: 14px;
+  }
+
+  .project-tech {
+    font-size: 11px;
+  }
+
+  .project-bio-title,
+  .project-tech-title {
+    font-size: 20px;
+  }
+
+  .project-title {
+    font-size: 34px;
+  }
 }

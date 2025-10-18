@@ -39,3 +39,56 @@
 .contact-footer .footer-li {
   color: black;
 }
+
+@media screen and (max-width: 1441px) {
+  .footer {
+    align-items: end;
+  }
+
+  .footer-links {
+    position: relative;
+    top: 10;
+  }
+
+  .footer-link {
+    font-size: 35px;
+  }
+
+  .footer-name {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-links {
+    margin: 0 15px 0;
+  }
+
+  .footer-link {
+    font-size: 28px;
+  }
+
+  .footer-name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer-link {
+    font-size: 22px;
+  }
+
+  .footer-name {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .footer-name {
+    font-size: 8px;
+  }
+
+  .footer-link {
+    font-size: 18px;
+  }
+}

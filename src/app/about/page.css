@@ -141,3 +141,158 @@
   margin-bottom: 7px;
   font-size: 18px;
 }
+
+@media screen and (max-width: 1000px) {
+  .about-profile-img {
+    width: 275px;
+    height: 275px;
+  }
+
+  .about-title {
+    font-size: 45px;
+  }
+
+  .about-subtitle {
+    font-size: 27px;
+  }
+
+  .about-bio {
+    font-size: 20px;
+  }
+
+  .about-skills-container {
+    grid-template-columns: repeat(3, 190px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-profile-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-subtitle {
+    font-size: 22px;
+  }
+
+  .about-bio {
+    font-size: 18px;
+  }
+
+  .about-skills-container {
+    grid-template-columns: repeat(2, 190px);
+  }
+
+  .about-skills-title,
+  .about-card-title {
+    font-size: 25px;
+  }
+
+  .about-skill-img {
+    height: 30px;
+  }
+
+  .about-skill-item {
+    font-size: 16px;
+  }
+
+  .about-card-img {
+    height: 20px;
+  }
+
+  .about-card-item {
+    font-size: 18px;
+  }
+
+  .about-card-data {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about-profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-title {
+    font-size: 27px;
+  }
+
+  .about-subtitle {
+    font-size: 19px;
+  }
+
+  .about-bio {
+    font-size: 16px;
+    max-width: 300px;
+  }
+
+  .about-skills-container {
+    grid-template-columns: repeat(1, 190px);
+  }
+
+  .about-skills-title,
+  .about-card-title {
+    font-size: 19px;
+  }
+
+  .about-skill-img {
+    height: 25px;
+  }
+
+  .about-skill-item {
+    font-size: 15px;
+  }
+
+  .about-card-img {
+    height: 19px;
+  }
+
+  .about-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about-card-item {
+    font-size: 16px;
+  }
+
+  .about-card-data {
+    font-size: 15px;
+  }
+
+  .about-card-box {
+    margin-top: 50px;
+    min-height: 230px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about-profile-img {
+    width: 175px;
+    height: 175px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+
+  .about-subtitle {
+    font-size: 17px;
+  }
+
+  .about-bio {
+    font-size: 16px;
+    max-width: 250px;
+  }
+
+  .about-skills-container {
+    grid-template-columns: repeat(1, 170px);
+  }
+}

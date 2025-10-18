@@ -10,7 +10,6 @@
   font-weight: 700;
   font-size: 90px;
   color: black;
-  -webkit-text-stroke: thin;
   text-shadow: 1px 1px 6px;
 }
 
@@ -38,4 +37,89 @@
 .contact-img {
   height: 40px;
   color: blue;
+}
+
+@media screen and (max-width: 1441px) {
+  .contact-title {
+    font-size: 75px;
+  }
+
+  .contact-sub {
+    font-size: 35px;
+  }
+
+  .contact-link {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .contact-title {
+    font-size: 55px;
+  }
+
+  .contact-sub {
+    font-size: 27px;
+    max-width: 80%;
+  }
+
+  .contact-link {
+    font-size: 27px;
+  }
+
+  .contact-img {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contact-title {
+    font-size: 40px;
+  }
+
+  .contact-sub {
+    font-size: 23px;
+  }
+
+  .contact-link {
+    font-size: 23px;
+  }
+
+  .contact-img {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .contact-title {
+    font-size: 35px;
+  }
+
+  .contact-sub,
+  .contact-link {
+    font-size: 18px;
+  }
+
+  .contact-sub {
+    margin: 20px;
+  }
+
+  .contact-img {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contact-title {
+    font-size: 25px;
+  }
+
+  .contact-link,
+  .contact-sub {
+    font-size: 15px;
+  }
+
+  .contact-img {
+    height: 15px;
+  }
 }

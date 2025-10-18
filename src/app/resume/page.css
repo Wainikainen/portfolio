@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
-  height: 100%;
+  min-height: 95vh;
   margin: 40px;
   box-sizing: border-box;
 }
@@ -40,4 +39,134 @@
   min-height: 1200px;
   margin-bottom: 70px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 2100px) {
+  .resume-PicWrap {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+
+  .resume {
+    padding: 120px;
+  }
+}
+
+@media screen and (max-width: 1441px) {
+  .resume-PicWrap {
+    flex-wrap: wrap;
+  }
+
+  .resume {
+    padding: 0 80px 0;
+  }
+
+  .resume-heading {
+    font-size: 70px;
+    margin: 20px 0 80px;
+  }
+}
+
+@media screen and (max-width: 1356px) {
+  .resume-img {
+    min-height: 800px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .resume {
+    padding: 0 65px 0;
+    justify-content: space-evenly;
+  }
+
+  .resume-heading {
+    font-size: 50px;
+  }
+
+  .resume-logo {
+    height: 35px;
+    margin-left: 50px;
+  }
+
+  .resume-img {
+    min-height: 650px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .resume-heading {
+    font-size: 40px;
+    margin: 40px 0 50px;
+  }
+
+  .resume {
+    justify-content: flex-start;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .resume {
+    padding: 20px;
+  }
+
+  .resume-img {
+    min-height: 500px;
+  }
+
+  .resume-heading {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .resume-img {
+    min-height: 400px;
+  }
+
+  .resume {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .resume-heading {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .resume-logo {
+    margin-left: 35px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .resume-heading {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .resume-logo {
+    height: 15px;
+    margin-left: 17px;
+  }
+
+  .resume-img {
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  .resume-heading {
+    font-size: 15px;
+  }
+
+  .resume-logo {
+    height: 12px;
+  }
+
+  .resume-img {
+    min-height: 200px;
+  }
 }

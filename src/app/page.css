@@ -21,3 +21,97 @@
 .home-txt {
   font-size: 30px;
 }
+
+@media screen and (max-width: 1441px) {
+  .home-heading {
+    font-size: 85px;
+  }
+
+  .home-txt {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    margin: 0 80px;
+  }
+
+  .home-heading {
+    font-size: 65px;
+  }
+
+  .home-txt {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .home {
+    height: 90vh;
+  }
+
+  .home-heading {
+    font-size: 60px;
+  }
+
+  .home-txt {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .home-txt {
+    font-size: 16px;
+    max-width: 450px;
+  }
+
+  .home {
+    height: 89vh;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .home {
+    height: 92vh;
+  }
+
+  .home-heading {
+    font-size: 40px;
+  }
+
+  .home-txt {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .home {
+    height: 94vh;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .home {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .home {
+    height: 88vh;
+  }
+
+  .home-heading {
+    font-size: 30px;
+  }
+
+  .home-txt {
+    font-size: 12px;
+  }
+}

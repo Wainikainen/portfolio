@@ -1,5 +1,5 @@
 .projects {
-  margin: 80px;
+  margin: 75px;
   display: flex;
   justify-self: center;
   flex-direction: column;
@@ -17,4 +17,48 @@
   font-size: 35px;
   margin-bottom: 50px;
   color: rgba(0, 125, 0, 0.9);
+}
+
+@media screen and (max-width: 1441px) {
+  .projects-title {
+    font-size: 50px;
+  }
+
+  .projects-sub {
+    font-size: 31px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .projects {
+    margin: 60px;
+  }
+
+  .projects-title {
+    font-size: 45px;
+  }
+
+  .projects-sub {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .projects {
+    margin: 40px;
+  }
+
+  .projects-title {
+    font-size: 38px;
+  }
+
+  .projects-sub {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .projects {
+    margin: 25px;
+  }
 }
