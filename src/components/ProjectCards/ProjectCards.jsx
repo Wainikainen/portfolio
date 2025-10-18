@@ -54,7 +54,7 @@ export default function ProjectCards() {
           className="project-card"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: false, amount: 0.3 }}
         >
           <div className="project-images-scroll">
             {proj.images.map((src, i) => (
