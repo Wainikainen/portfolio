@@ -261,17 +261,3 @@
   }
 }
 
-@supports (-webkit-touch-callout: none) {
-  .project-images-scroll {
-    height: 100dvh;         /* ✅ iOS dynamic viewport */
-    height: 100vh;          /* ✅ fallback if dvh unsupported */
-    -webkit-overflow-scrolling: touch;
-    overflow-y: auto;
-  }
-  .project-img {
-    height: 100dvh !important;  /* ✅ override -webkit-fill-available on iOS */
-    height: 100vh !important;   /* ✅ fallback */
-    object-fit: cover;
-    display: block;
-  }
-}
