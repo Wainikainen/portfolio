@@ -187,13 +187,14 @@
   }
 
   .about-skills-container {
-    grid-template-columns: repeat(2, 190px);
+    grid-template-columns: repeat(2, 210px);
   }
 
   .about-skills-title,
   .about-card-title {
     font-size: 25px;
   }
+
 
   .about-skill-img {
     height: 30px;
