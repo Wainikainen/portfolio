@@ -233,7 +233,9 @@
   }
 
   .about-skills-container {
-    grid-template-columns: repeat(1, 190px);
+
+grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+
   }
 
   .about-skills-title,
