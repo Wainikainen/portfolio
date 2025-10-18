@@ -248,16 +248,5 @@
   }
 }
 
-@supports (-webkit-touch-callout: none) {
-  .project-images-scroll {
-    height: 100vh !important;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-  }
 
-  .project-img {
-    height: 100vh !important;
-    object-fit: cover;
-  }
-}
 
