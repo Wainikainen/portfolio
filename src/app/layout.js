@@ -2,6 +2,7 @@ import "./global.css";
 import { Montserrat } from "next/font/google";
 import NavBar from "@/components/NavBar/NavBar";
 import Footer from "@/components/Footer/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: "Adam Wainikainen's Portfolio",
