@@ -26,6 +26,14 @@
   color: white;
 }
 
+.navBar-link :hover {
+  text-decoration: underline;
+}
+
+.navBar-link-home :hover {
+  text-decoration: none;
+}
+
 .about-nav {
   background-color: transparent;
 }
